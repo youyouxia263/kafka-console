@@ -1,0 +1,183 @@
+{
+  "topics" : [ {
+    "topic" : "sean_topic_1",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_2",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_3",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_4",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_5",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_6",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_7",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_8",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_9",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_10",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_11",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_12",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_13",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_14",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_15",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_16",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_17",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_18",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_19",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_20",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_21",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_22",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_23",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_24",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_25",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_26",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_27",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_28",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_29",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  }, {
+    "topic" : "sean_topic_30",
+    "partitions" : 12,
+    "replicationFactor" : 5,
+    "configs" : { },
+    "caution" : null
+  } ]
+}
