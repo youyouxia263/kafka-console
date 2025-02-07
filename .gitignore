@@ -1,3 +1,11 @@
 /.idea/
 /logs/
 /target/
+/kafka-console-backend/.env
+/kafka-console-backend/.env.local
+/kafka-console-backend/.env.development.local
+/kafka-console-backend/.env.test.local
+/kafka-console-backend/.env.production.local
+/kafka-console-backend/logs
+/kafka-console-backend/target
+/kafka-console-backend/.vscode

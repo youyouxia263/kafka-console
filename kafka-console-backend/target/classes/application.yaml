@@ -1,15 +1,20 @@
 server:
   port: 8081
   servlet:
-    context-path: /agent/v1.0/kafka
+    context-path: /kafka/v1.0
 
 spring:
   application:
-    name: kafka-agent
+    name: kafka-console-backend
   #修复3.0swagger问题
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
 kafka:
   server: ${KAFKA_BROKER:10.255.65.212:9095,10.255.65.211:9095,10.255.65.210:9095}
   acl-enable: ${ACL_ENABLE:false}

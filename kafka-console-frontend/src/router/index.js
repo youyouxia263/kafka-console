@@ -1,33 +1,38 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import ClusterConfig from '@/components/ClusterConfig.vue'
-import TopicManagement from '@/components/TopicManagement.vue'
-import ConsumerGroupManagement from '@/components/ConsumerGroupManagement.vue'
-import MessageManagement from '@/components/MessageManagement.vue'
+import { createRouter, createWebHashHistory } from "vue-router";
+// import { routes } from "./routes";
+import BrokerList from '@/components/BrokerList.vue';
+import TopicList from '@/components/TopicList.vue';
+import ConsumerGroupList from '@/components/ConsumerGroupList.vue';
+import MessageList from '@/components/MessageList.vue';
 
-Vue.use(Router)
-
-export default new Router({
+const router = createRouter({
+  history: createWebHashHistory(),
   routes: [
     {
-      path: '/cluster-config',
-      name: 'ClusterConfig',
-      component: ClusterConfig
+      path: "/",
+      redirect: "/brokers",
     },
     {
-      path: '/topic-management',
-      name: 'TopicManagement',
-      component: TopicManagement
+      path: '/brokers',
+      name: 'Brokers',
+      component: BrokerList
     },
     {
-      path: '/consumer-group-management',
-      name: 'ConsumerGroupManagement',
-      component: ConsumerGroupManagement
+        path: '/topics',
+        name: 'Topics',
+        component: TopicList
     },
     {
-      path: '/message-management',
-      name: 'MessageManagement',
-      component: MessageManagement
+        path: '/consumer-groups',
+        name: 'Consumer Groups',
+        component: ConsumerGroupList
+    },
+    {
+        path: '/messages',
+        name: 'Messages',
+        component: MessageList
     }
-  ]
-})
+  ],
+});
+
+export default router;
