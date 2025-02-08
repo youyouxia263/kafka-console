@@ -29,6 +29,7 @@ nav {
 
 main {
   flex: 1;
-  padding: 20px;
+  padding: 2%;
+  margin-left: 200px; /* 确保内容不在菜单栏下面 */
 }
 </style>
