@@ -1,9 +1,12 @@
 <template>
   <div class="menu-container">
     <nav :class="['menu', { collapsed: isCollapsed }]">
-      <button @click="toggleMenu" class="toggle-button">
-        <i :class="isCollapsed ? 'fas fa-chevron-right' : 'fas fa-chevron-left'"></i>
-      </button>
+      <div class="menu-header">
+        <h1 class="menu-title" v-if="!isCollapsed">Kafka Console</h1>
+        <button @click="toggleMenu" class="toggle-button">
+          <i :class="isCollapsed ? 'fas fa-chevron-right' : 'fas fa-chevron-left'"></i>
+        </button>
+      </div>
       <ul>
         <li>
           <router-link to="/brokers">
@@ -62,56 +65,87 @@ export default {
 }
 
 .menu {
-  width: 10%;
+  width: 240px;
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
-  background-color: #7bbbbf2b; 
-  padding-top: 20px;
-  color: #ffffff; /* 文字颜色改为白色 */
-  text-align: center;
-  transition: width 0.3s;
+  background-color: #2c3e50;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .menu.collapsed {
-  width: 50px;
+  width: 60px;
+}
+
+.menu-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 .toggle-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
   background-color: transparent;
   border: none;
-  color: #7d5050;
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 16px;
   cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 16px 0;
+  margin: 0;
 }
 
 li {
-  margin-bottom: 10px;
-  line-height: 2; /* 确保文字在中间显示 */
+  margin: 4px 0;
 }
 
-router-link {
-  color: #ffffff;
-  text-decoration: none;
+li a {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 12px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
-router-link:hover {
-  text-decoration: underline;
+li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-i {
-  margin-right: 10px;
+li a.router-link-active {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 3px solid #42b983;
+}
+
+li i {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+}
+
+li span {
+  margin-left: 12px;
+  font-size: 14px;
 }
 </style>
